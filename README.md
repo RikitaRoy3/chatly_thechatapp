@@ -1,6 +1,6 @@
-# ChatGPT Application 🤖💬
+# Chatly- the chat application 💬
 
-A clean, modern web application built with **Vite + React** on the frontend and **Node.js + Express** on the backend. This project is designed for learning, experimentation, and real-world integration of AI-powered chat features with authentication and API handling.
+A clean, modern web application built with **Vite + React** on the frontend and **Node.js + Express** on the backend. This project is designed for learning, experimentation, and real-world integration with authentication and API handling.
 
 ---
 
@@ -75,7 +75,7 @@ Chaly/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Chatly.git
+git clone https://github.com/your-username/Chatly-the_chating_app-.git
 cd Chatly
 ```
 
@@ -182,15 +182,6 @@ npm run preview # preview build
 npm run dev     # start server with nodemon
 npm start       # start production server
 ```
-
----
-
-## 📌 Future Improvements
-
-* Deployment (Vercel + Render)
-
----
-
 
 ## 🙌 Acknowledgements
 
