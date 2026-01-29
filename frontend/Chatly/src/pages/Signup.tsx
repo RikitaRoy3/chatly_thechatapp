@@ -55,7 +55,7 @@ const Signup = () => {
           </div>
 
           <h1 className="text-5xl font-bold mb-4">
-            <span className="gradient-text">Join Chatify</span>
+            <span className="gradient-text">Join Chatly</span>
           </h1>
 
           <p className="text-muted-foreground text-lg max-w-md leading-relaxed">
