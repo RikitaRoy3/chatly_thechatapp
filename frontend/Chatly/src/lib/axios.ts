@@ -6,14 +6,23 @@
 // });
 
 
+
+
+
+// import axios from "axios";
+
+// export const axiosInstance = axios.create({
+//   baseURL:  import.meta.env.VITE_API_URL,
+//   withCredentials: true,   // 🔥 THIS IS REQUIRED
+// });
+
+
+
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL:  import.meta.env.VITE_API_URL,
-  withCredentials: true,   // 🔥 THIS IS REQUIRED
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,   // 🔥 REQUIRED
 });
-
-
-
 
 
