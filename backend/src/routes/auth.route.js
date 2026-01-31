@@ -10,12 +10,12 @@ router.get("/test", arcjetProtection,(req, res) => {
   res.status(200).json({ message: "Auth route is working" });
 });
 
-router.use(arcjetProtection,checkauth);
+// router.use(arcjetProtection,checkauth);
 
 router.post("/signup", signup);
 router.post("/login", login);
 router.post("/logout", logout);
-router.put("/update", updateProfile);
+router.put("/update", checkauth, updateProfile);
 
 router.get("/check", checkauth, (req, res) => {
   res.status(200).json({ message: "Authenticated", user: req.user });

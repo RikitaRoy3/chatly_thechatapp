@@ -36,8 +36,9 @@ app.use(cors({
     "http://localhost:8080",
 
     "https://chatly-black-one.vercel.app/",
-  ], credentials: true
-}));// This will allow these frontends to talk to our backend with credentials..and will also allow cookies to be received by this very frontends in case my backend is running on some diffrent domain or https.
+  ], credentials: true}));
+  
+  // This will allow these frontends to talk to our backend with credentials..and will also allow cookies to be received by this very frontends in case my backend is running on some diffrent domain or https.
 app.use(cookieParser());
 
 const PORT = process.env.PORT || 3000;
