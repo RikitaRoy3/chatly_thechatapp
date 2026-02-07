@@ -30,7 +30,7 @@ A clean, modern web application built with **Vite + React** on the frontend and 
 * Axios / Fetch API
 * CSS / Tailwind / Custom styles (as used)
 
-### Backend
+### Backend ⚙️
 
 * Node.js
 * Express.js
