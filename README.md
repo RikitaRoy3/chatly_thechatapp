@@ -1,4 +1,4 @@
-# Chatly- the chat application 💬
+# Chatly- the chat application ✨
 
 A clean, modern web application built with **Vite + React** on the frontend and **Node.js + Express** on the backend. This project is designed for learning, experimentation, and real-world integration with authentication and API handling.
 
