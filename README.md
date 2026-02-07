@@ -17,7 +17,7 @@ A clean, modern web application built with **Vite + React** on the frontend and 
 * 🌐 REST API architecture
 * 🎨 Responsive and modern UI
 * 🧩 Clean project structure (frontend + backend separated)
-* 🛠️ Easy to extend and customize
+* 🛠️ Easy to extend and customize.
 
 ---
 
